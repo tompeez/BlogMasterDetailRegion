@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<adfc-config xmlns="http://xmlns.oracle.com/adf/controller" version="1.2">
+  <task-flow-definition id="department-btf">
+    <default-activity id="__1">Departments</default-activity>
+    <transaction id="__2">
+      <requires-transaction/>
+    </transaction>
+    <data-control-scope id="__3">
+      <shared/>
+    </data-control-scope>
+    <view id="Departments">
+      <page>/WEB-INF/de/hahn/blog/masterdetail/departments/Departments.jsff</page>
+    </view>
+    <use-page-fragments/>
+  </task-flow-definition>
+</adfc-config>
