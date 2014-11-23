@@ -172,6 +172,8 @@
          <hash n="Default">
             <value n="custom" v="false"/>
             <value n="name" v="Default"/>
+            <value n="runActiveFile" v="false"/>
+            <url n="targetURL" path="public_html/WEB-INF/adfc-config.xml"/>
          </hash>
       </hash>
       <list n="runConfigurationList">
